@@ -7,6 +7,11 @@ import java.text.DecimalFormat;
  * @author a22fatimasb
  */
 public class Main {
+
+    /**
+     * Clase de probas
+     * @param args
+     */
     public static void main(String[] args) {
         Aro circulo = new Aro(37,43,2.5);
         String saida =

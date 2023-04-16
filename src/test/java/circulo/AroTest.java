@@ -17,6 +17,9 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class AroTest {
     
+    /**
+     * test unitarios para comprobar que todo vaia ben
+     */
     public AroTest() {
     }
     
