@@ -2,10 +2,13 @@ package circulo;
 
 /**
  * Probas de refactorización en NetBeans coa clase Aro
+ *
  * @author a22fatimasb
  */
 public class Aro {
+
     public static final double MINIMO = 0.0;
+    public static final double LIMITERADIO = 0.0;
 
     private int coordenadaX;
     private int coordenadaY;
@@ -21,7 +24,7 @@ public class Aro {
     }
 
     public void establecerX(int valorX) {
-        coordenadaX=valorX;
+        coordenadaX = valorX;
     }
 
     public int obterX() {
@@ -29,7 +32,7 @@ public class Aro {
     }
 
     public void establecerY(int valorY) {
-        coordenadaY=valorY;
+        coordenadaY = valorY;
     }
 
     public int obterY() {
@@ -38,7 +41,7 @@ public class Aro {
 
     public void establecerRadio(double valorRadio) {
 
-        radio=(valorRadio < MINIMO ? MINIMO : valorRadio);
+        radio = (valorRadio < MINIMO ? MINIMO : valorRadio);
     }
 
     public double obterRadio() {
@@ -62,8 +65,8 @@ public class Aro {
         return "Centro = [" + coordenadaX + "," + coordenadaY + "]; Radio = " + radio;
     }
 
-    public void trasladarCentro(int trasladarx, int trasladary){
-        coordenadaX=coordenadaX + trasladarx;
-        coordenadaY=coordenadaY + trasladary;
+    public void trasladarCentro(int trasladarx, int trasladary) {
+        coordenadaX = coordenadaX + trasladarx;
+        coordenadaY = coordenadaY + trasladary;
     }
 }
